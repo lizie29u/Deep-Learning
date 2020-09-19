@@ -26,7 +26,9 @@ As per below plot, the closing prices model, tracks the actual values better ove
 
 ![predictions](Images/closing_prices.PNG)
 
-We experimented with window sizes of 5, 6, 8 and 10.  The window size of 5 seemed to give the better performance. Window size of 10 has been used as per requiremnent.
+We experimented with window sizes of 5, 6, 8 and 10.  The window size of 5 seemed to give the better performance. Window size of 10 has been used as per requirement.
+
+
 
 
 
