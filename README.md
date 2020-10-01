@@ -1,6 +1,6 @@
 # Deep-Learning
 
-In this assignment, we used deep learning recurrent neural networks to create two  models to predict bitcoin closing prices. One model used the FNG indicators the other model will use a window of closing prices to predict the nth closing price.
+In this project, we used deep learning recurrent neural networks to create two  models to predict bitcoin closing prices. One model used the FNG indicators the other model will use a window of closing prices to predict the nth closing price.
 
 The initial model was run using various differnt window size. In the end we chose to use a rolling  10 day window to predict the 11th day closing price.  For comparative purposes, this will be the same for both models
 
