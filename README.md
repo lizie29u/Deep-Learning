@@ -11,8 +11,6 @@ The initial model was run using various differnt window size. In the end we chos
 * (4) Scale data using MinMax Scalar
 * (5) Reshape data.
 
-The data was split into 70% training and 30% testing, then scaled using the MinMaxScalar and reshaped.
-
 ## Build and Train the LSTM RNN
 Using Tensorflow we built the model using 3 layers, 30 neurons in each layer and a 20% dropout between each layer. The optimizer used was "adam" and loss was measured using "mean_squared_error". 
 We trained the model using 10 epochs and a batch size of 1
