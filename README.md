@@ -7,6 +7,9 @@ The initial model was run using various differnt window size. In the end we chos
 ## Data Preparation
 * (1) Load csv files into separate pandas dataframes 
 * (2) Join both dataframes to create a single dataframe. 
+* (3) Split data into training (70%) and testing (30%)
+* (4) Scale data using MinMax Scalar
+* (5) Reshape data.
 
 The data was split into 70% training and 30% testing, then scaled using the MinMaxScalar and reshaped.
 
