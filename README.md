@@ -19,7 +19,8 @@ We trained the model using 10 epochs and a batch size of 1
 
 The model with the lower loss was the model using the closing prices to predict
 
-![loss](Images/loss.PNG)
+
+![loss](images/loss.PNG)
 
 
 As per below plot, the closing prices model, tracks the actual values better over time.
