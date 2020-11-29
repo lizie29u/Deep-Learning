@@ -5,8 +5,8 @@ In this project, we used deep learning recurrent neural networks to create two  
 The initial model was run using various differnt window size. In the end we chose to use a rolling  10 day window to predict the 11th day closing price.  For comparative purposes, this will be the same for both models
 
 ## Data Preparation
-The csv files containing historical data of bitcoin closing prices and bitcoin Crypto Fear and Greed Index (FNG) were loaded into separate pandas dataframes and then joined to create a single dataframe.
-
+Load Csv files into separate pandas dataframes
+join both dataframes to create a single dataframe.
 The data was split into 70% training and 30% testing, then scaled using the MinMaxScalar and reshaped.
 
 ## Build and Train the LSTM RNN
